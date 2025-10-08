@@ -1,0 +1,466 @@
+[
+  {
+    "image": "https://i.ibb.co/Ng7M933V/weather-Pro.jpg",
+    "title": "WeatherPro",
+    "companyName": "WeatherTech",
+    "id": 101,
+    "description": "WeatherPro is a feature-rich weather application designed to provide highly accurate, hyper-local weather information for users around the world. With its advanced weather models and radar integration, WeatherPro offers real-time updates on temperature, humidity, wind speed, and precipitation levels. The app supports hourly, daily, and weekly forecasts, enabling users to plan their day-to-day activities, outdoor events, or travel with confidence. It is ideal for commuters, travelers, outdoor enthusiasts, and professionals who need reliable weather data at their fingertips.One of the most valuable features of WeatherPro is its interactive radar maps, which allow users to visualize storm paths, rainfall patterns, and other significant weather events. The app sends instant alerts for severe weather conditions, including thunderstorms, snowstorms, heatwaves, and heavy rainfall, helping users take preventive measures to stay safe. Alerts are fully customizable, allowing users to choose which notifications they want to receive based on their location and preferences.WeatherPro also includes additional resources such as air quality indices, UV levels, pollen counts, and sunrise/sunset timings, ensuring users have a comprehensive overview of environmental conditions. Users can save multiple locations, track weather patterns across regions, and compare forecasts to make informed decisions. The intuitive interface ensures quick access to essential data and smooth navigation throughout the app.For travelers, WeatherPro provides historical climate data and long-term trends, allowing better planning for vacations or business trips. The app also features educational content, explaining various weather phenomena and forecasting techniques. This transforms WeatherPro into not just a monitoring tool but also a platform for learning about meteorology.WeatherPro is optimized for performance, with minimal battery consumption and offline capabilities that allow users to access saved forecasts without internet connectivity. Social sharing options enable users to share updates or weather screenshots with friends and family via social media and messaging apps. Overall, WeatherPro combines accuracy, usability, and educational content to provide a complete weather experience, helping users stay informed, prepared, and safe in any weather condition.",
+    "size": 50,
+    "reviews": 1200,
+    "ratingAvg": 4.5,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 450 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/277kY67n/E79-C0-B5-D-0-E1-A-413-D-8622-888-A6-F52090-C.png",
+    "title": "FitTrack",
+    "companyName": "HealthCorp",
+    "id": 102,
+    "description": "FitTrack is a comprehensive fitness application that helps users monitor their workouts, track calories, and analyze their overall health progress. The app integrates with wearable devices and smartphone sensors to provide accurate data on steps, distance, heart rate, and sleep patterns. Users can set personalized fitness goals, including weight loss, muscle gain, or endurance improvements, and FitTrack generates tailored workout plans and nutrition suggestions to achieve these goals effectively.The app includes a rich library of exercise tutorials, from beginner to advanced levels, covering strength training, cardio, yoga, and stretching routines. FitTrack also allows users to log their meals, track macronutrients, and receive AI-driven insights to maintain a balanced diet. Progress reports, visual charts, and motivational reminders help users stay accountable and consistently improve their fitness journey.FitTrack provides social features, enabling users to share achievements, participate in fitness challenges, and interact with friends or the community. Regular updates ensure the app stays current with fitness trends and emerging scientific recommendations. Offline mode allows users to access workout routines without an internet connection, making it perfect for gyms or outdoor exercises.Overall, FitTrack combines technology, data analytics, and community support to create an all-in-one fitness solution. It empowers users to take control of their health, develop sustainable habits, and achieve their personal fitness milestones safely and efficiently.",
+    "size": 70,
+    "reviews": 1500,
+    "ratingAvg": 4.7,
+    "downloads": "3M",
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 850 }
+    ]
+  },
+  {
+    "image": "https://i.pinimg.com/736x/65/41/16/654116f4d073f1bc19e2f3d4c97c9ced.jpg",
+    "title": "NoteMaster",
+    "companyName": "Productivity Inc.",
+    "id": 103,
+    "description": "NoteMaster is an advanced note-taking application designed to help users organize thoughts, ideas, and tasks efficiently. Users can create text notes, checklists, voice notes, and attach images or documents to keep all information in one place. The app provides tagging and folder systems for easy categorization and retrieval. Notes are synced across devices, ensuring access anytime and anywhere, whether on mobile, tablet, or desktop.Collaborative features allow teams to share notes, assign tasks, and comment in real-time, making NoteMaster suitable for students, professionals, and project teams. The built-in search function quickly locates information within hundreds of notes, while customizable themes and layouts enhance the user experience. Offline access ensures that notes remain available even without internet connectivity. Additional productivity tools include reminders, recurring tasks, and integration with calendars. NoteMaster also supports export to popular file formats for sharing or backup purposes. With regular updates and user-centric design, NoteMaster remains a reliable and essential tool for managing information efficiently, improving productivity, and keeping personal or professional life organized.",
+    "size": 60,
+    "reviews": 2000,
+    "ratingAvg": 4.6,
+    "downloads": "4.5M",
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1200 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/gGzQK32CT0HXe-ay6h0P1a2adDbi-dhkIyX5aVYQmqrJ51KRd-HSWYjKyO1l8QBP_OY=w480-h960-rw",
+    "title": "PhotoSnap",
+    "companyName": "SnapTech",
+    "id": 104,
+    "description": "PhotoSnap is a professional-grade photo editing and photography app that allows users to capture stunning images and enhance them with advanced editing tools. The app provides a wide range of filters, effects, overlays, and retouching options to create professional-quality photos easily. Users can adjust brightness, contrast, saturation, and apply selective edits to highlight specific areas. PhotoSnap also supports cropping, resizing, and background removal for creative compositions. The app features a camera mode with manual settings, including shutter speed, ISO, white balance, and focus control, giving photography enthusiasts full creative freedom. Social sharing options allow users to share their creations instantly on popular platforms or collaborate with friends. Tutorials and guided tips within the app help beginners learn photography skills and editing techniques effectively. PhotoSnap also offers cloud backup and synchronization, ensuring photos and projects are securely stored and accessible across multiple devices. Offline mode allows editing without an internet connection, while advanced AI features suggest improvements and automatically enhance images based on content. Overall, PhotoSnap combines creative tools, professional controls, and ease-of-use to provide an all-in-one photography solution suitable for both casual users and professionals.",
+    "size": 80,
+    "reviews": 1800,
+    "ratingAvg": 4.4,
+    "downloads": "6M",
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 720 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/S5cHQc3S-_idZUyHtxxup7PlZ1mr7kjYVkuiB8klEIqm2OdotHkK1Dwyym-HorMDSbc=w480-h960-rw",
+    "title": "TravelMate",
+    "companyName": "GlobeTrotters",
+    "id": 105,
+    "description": "TravelMate is a comprehensive travel planning app designed to help users explore destinations, book flights and hotels, and organize itineraries. The app provides detailed travel guides, local recommendations, and real-time updates on flights and accommodations. Users can create custom travel plans, add attractions, and share their itineraries with friends or family. TravelMate also includes reviews, ratings, and travel tips from fellow users, helping travelers make informed decisions.The app features offline maps, navigation tools, and location tracking to ensure a smooth experience while exploring new places. Currency converters, language translation, and emergency contact information make TravelMate a reliable companion for international travel. Notifications alert users about flight delays, weather conditions, and nearby attractions. TravelMate's integration with booking platforms enables seamless reservations for flights, hotels, and experiences. With a focus on user convenience and exploration, TravelMate encourages discovering hidden gems, cultural landmarks, and local events. The app supports multi-device syncing, ensuring all travel information is accessible on smartphones, tablets, or desktops. Whether planning a weekend getaway or an extended international journey, TravelMate offers all the tools needed for a seamless, memorable travel experience.",
+    "size": 90,
+    "reviews": 1100,
+    "ratingAvg": 4.3,
+    "downloads": "3.5M",
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 340 }
+    ]
+  },
+  
+  {
+    "image": "https://cdn6.aptoide.com/imgs/a/5/9/a592efab895f7f5021666c5e8cdb48cb_icon.png",
+    "title": "MusicFlow",
+    "companyName": "TuneMasters",
+    "id": 106,
+    "description": "MusicFlow is a complete music streaming application that allows users to discover, listen, and share their favorite songs and podcasts from around the world. With an extensive library of millions of tracks across genres, MusicFlow ensures there is something for everyone, whether you enjoy pop, rock, jazz, classical, or electronic music. Users can create custom playlists, follow favorite artists, and receive personalized recommendations based on listening habits.The app features high-quality audio streaming, offline downloads, and smart playlists that automatically adjust to user preferences. MusicFlow also integrates social features, enabling users to share playlists, comment on tracks, and collaborate with friends. With curated playlists and mood-based stations, the app offers a dynamic and enjoyable listening experience.MusicFlow provides easy-to-use search and discovery tools, including genre filters, trending tracks, and editor's picks. Users can explore podcasts covering entertainment, news, health, and more. The app supports multiple devices and ensures seamless synchronization across smartphones, tablets, and desktops. Notifications for new releases and live events keep users updated with the latest content.Whether you are a casual listener, music enthusiast, or a professional looking for inspiration, MusicFlow combines technology, creativity, and community to offer a truly immersive music experience. The intuitive interface, minimal buffering, and offline capabilities make it perfect for daily commuting, workouts, or relaxation. MusicFlow turns every listening session into a personalized musical journey.",
+    "size": 100,
+    "reviews": 2500,
+    "ratingAvg": 4.8,
+    "downloads": "8M",
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 1940 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/QGrAyCWOD1y8YfSLde7FRDSIadKaMVWpKn-hgxNzs4UT4g9Bz1I0DblRkLdMUJ8gdlGs=w480-h960-rw",
+    "title": "ShopEase",
+    "companyName": "RetailTech",
+    "id": 107,
+    "description": "ShopEase is an advanced e-commerce platform designed to make online shopping simple, fast, and secure. Users can browse thousands of products across multiple categories including electronics, fashion, home appliances, and more. The app provides detailed product descriptions, high-quality images, reviews, and ratings to help users make informed purchasing decisions. With features such as personalized recommendations, flash deals, and curated collections, ShopEase enhances the shopping experience significantly.ShopEase integrates multiple payment gateways, supporting secure transactions, easy refunds, and order tracking in real-time. Users can manage wishlists, receive notifications about discounts, and access exclusive member benefits. The apps interface is intuitive, ensuring smooth navigation, fast search, and hassle-free checkout processes.For businesses and sellers, ShopEase offers analytics dashboards, inventory management tools, and promotional campaigns to boost sales and reach more customers. The app also emphasizes customer engagement through reviews, ratings, and community forums.With reliable delivery services, secure payments, and a seamless user experience, ShopEase combines technology and convenience, making it the ideal shopping companion for consumers who value efficiency, variety, and quality. The apps offline mode for browsing saved products ensures accessibility even in low connectivity areas.",
+    "size": 120,
+    "reviews": 2200,
+    "ratingAvg": 4.2,
+    "downloads": "7M",
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 870 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/BSfa8naUcvgTTefQg75XRHVex_85dDIemGnowI_pnWT7ZkF_0aCyr1_yejwy8l7TYLU=w480-h960-rw",
+    "title": "NewsNow",
+    "companyName": "MediaCorp",
+    "id": 108,
+    "description": "NewsNow is a comprehensive news aggregator and reader app that brings the latest headlines, breaking news, and in-depth articles from reliable sources around the world. Users can customize their feed according to their interests, including politics, technology, entertainment, sports, and more. NewsNow ensures timely updates through push notifications for major events and urgent alerts.The app features offline reading, bookmarking, and a clean, easy-to-navigate interface. Users can share articles, comment on stories, and participate in discussions. NewsNow also offers expert analyses, editorials, and video content to provide a well-rounded perspective on global events. Advanced search and topic filtering help users quickly access relevant news. The app supports multiple languages and regional editions, catering to a global audience.NewsNow prioritizes user experience by offering dark mode, adjustable text size, and minimal battery consumption. With its focus on reliability, personalization, and convenience, NewsNow becomes an essential tool for staying informed and engaged with current affairs, whether at home, work, or on the go.",
+    "size": 110,
+    "reviews": 1900,
+    "ratingAvg": 4.5,
+    "downloads": "6.5M",
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 900 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/vW2QYEsJxNAhWmoWfbzemtrngHG0x7Qu7nDiAg28QJM98EcAGZ6FFc-Wgg7VDw7tjnw=w480-h960-rw",
+    "title": "Foodie",
+    "companyName": "DineTech",
+    "id": 109,
+    "description": "Foodie is a complete food discovery and delivery app that helps users explore local restaurants, cafes, and food joints with ease. Users can browse menus, read reviews, check ratings, and order meals online for home delivery or pick-up. Foodie features curated recommendations, trending dishes, and personalized suggestions based on taste preferences and previous orders. With a robust search engine, users can filter restaurants by cuisine, price, distance, or special offers.The app supports secure payments, real-time order tracking, and loyalty rewards for frequent users. Foodie also provides nutritional information, dietary preferences, and allergen alerts to ensure safe and informed choices. Users can share reviews, photos, and recommendations within the community, making it easier for others to discover new dining experiences.For restaurant partners, Foodie offers tools for managing menus, accepting orders, tracking customer feedback, and optimizing delivery logistics. With its focus on convenience, reliability, and a wide selection, Foodie transforms the dining experience into a seamless and enjoyable journey for both customers and businesses. The apps offline mode allows users to browse saved restaurants and menus even without internet access.",
+    "size": 130,
+    "reviews": 1600,
+    "ratingAvg": 4.6,
+    "downloads": "5.5M",
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 480 },
+      { "name": "5 star", "count": 840 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/_tKxWlUJlTf4B_7Pa3j4LcQh5MHttO0E_zMOg9q59ges8c3595ZEsvV46tenaH5cmz4=w480-h960-rw",
+    "title": "LearnNow",
+    "companyName": "EduTech",
+    "id": 110,
+    "description": "LearnNow is an all-in-one educational platform offering thousands of online courses in areas such as programming, design, business, languages, and personal development. The app provides interactive video lessons, quizzes, assignments, and real-time progress tracking to ensure effective learning. Users can set personalized learning paths, gain certificates, and access courses offline for uninterrupted study sessions.LearnNow includes expert instructors, peer discussion forums, and community-driven learning experiences. Users can track achievements, participate in challenges, and receive AI-driven recommendations for courses suited to their skill levels. The app features search filters by topic, difficulty, and duration to help learners find the right content quickly.With multi-device support and cloud synchronization, progress is saved seamlessly across devices. LearnNow prioritizes user engagement, offering gamified learning experiences, badges, and rewards to motivate consistent study habits. Whether for career advancement, personal growth, or hobby development, LearnNow provides a flexible, comprehensive, and interactive learning environment for learners of all ages and backgrounds.",
+    "size": 140,
+    "reviews": 1400,
+    "ratingAvg": 4.7,
+    "downloads": "4M",
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 790 }
+    ]
+  },
+  
+  {
+    "image": "https://play-lh.googleusercontent.com/jiWqFgkhiE-NZxJroudlDfHG0NNsQ0AhpEimf5L2kVvDl105eIflrFAtMaUA6m0qNg=w480-h960-rw",
+    "title": "GameZone",
+    "companyName": "PlayTech",
+    "id": 111,
+    "description": "GameZone is a dynamic gaming platform that offers users a vast selection of games across multiple genres, including action, strategy, puzzle, simulation, and casual games. The app provides engaging gameplay experiences for both solo players and competitive users who enjoy challenges and leaderboards. With regular updates, new content, and seasonal events, GameZone ensures there is always something exciting for players of all ages . The app features high-quality graphics, smooth controls, and immersive sound effects to enhance the gaming experience. Users can participate in multiplayer battles, tournaments, and special events, allowing them to compete with friends or global players. GameZone also supports in-app purchases for premium items, boosts, and customization options for avatars and game environments.Gamers can track achievements, progress, and rankings within the app, fostering motivation and friendly competition. The apps intuitive interface ensures easy navigation through game categories, search filters, and personalized recommendations based on playing history and preferences.For developers and content creators, GameZone provides tools to upload, manage, and monetize games, creating a thriving ecosystem of creators and players. Offline gameplay is supported for selected games, ensuring entertainment is always available without an internet connection.With its combination of variety, interactivity, and community engagement, GameZone is a one-stop platform for casual and serious gamers alike. Whether playing for fun, relaxation, or competitive excitement, GameZone provides a seamless, enjoyable, and feature-rich gaming environment for users across the globe.",
+    "size": 150,
+    "reviews": 1300,
+    "ratingAvg": 4.4,
+    "downloads": "3M",
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 370 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/y2ZEK0V-Oy_xUG-NRkgbOytF6sZiTGLj6GpyVDBZ8Gnc8C9oV9tgPBDbuxCtMXyF_w=w480-h960-rw",
+    "title": "FinancePro",
+    "companyName": "FinTech",
+    "id": 112,
+    "description": "FinancePro is a robust financial management app designed to help users track their income, expenses, and investments with ease. The app provides tools for budgeting, bill reminders, portfolio tracking, and detailed financial reports to support informed decision-making. Users can categorize transactions, analyze spending habits, and monitor financial goals in real-time.FinancePro includes integrations with multiple banks and financial institutions, ensuring seamless data synchronization and accurate account management. The app offers personalized insights and recommendations to optimize savings, reduce unnecessary expenditures, and maximize investment opportunities. Users can also set up automated budgets, alerts, and recurring payments to simplify financial management.The app provides educational resources on personal finance, investing strategies, and tax optimization, helping users improve financial literacy. Advanced charts, graphs, and analytics make it easy to visualize trends and progress over time.FinancePro prioritizes security, offering data encryption, two-factor authentication, and secure cloud backups to protect sensitive financial information. With a clean and intuitive interface, the app ensures that both beginners and experienced users can navigate easily and make confident financial decisions.Whether managing day-to-day expenses, planning long-term investments, or tracking multiple accounts, FinancePro empowers users to take control of their finances, improve their financial health, and achieve personal financial goals efficiently and securely.",
+    "size": 160,
+    "reviews": 1200,
+    "ratingAvg": 4.3,
+    "downloads": "2.5M",
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 110 },
+      { "name": "3 star", "count": 230 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 290 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/ZhF9ePP7uLe9Fna8aJwbsXmgq9uJka5ZLNJKz2SbzaT48uCQagG6mclRtt811dZMKRpZaeV5vHYE4Y72Wuuw6A=w480-h960-rw",
+    "title": "HealthMate",
+    "companyName": "WellnessCorp",
+    "id": 113,
+    "description": "HealthMate is a comprehensive health and wellness application designed to help users track physical activity, monitor vital signs, and maintain a balanced lifestyle. The app integrates with wearable devices and smartphone sensors to provide accurate data on steps, calories burned, heart rate, sleep patterns, and other health metrics. Users can set personal health goals and receive recommendations tailored to their fitness levels and lifestyle habits.The app offers guided workouts, meditation sessions, and nutritional tracking to support both physical and mental well-being. HealthMate also provides daily reminders, progress charts, and motivational messages to encourage consistent healthy habits. Users can log meals, track hydration, and receive insights into balanced nutrition for weight management, muscle gain, or overall wellness.HealthMate includes features for monitoring medical conditions, tracking medications, and maintaining health records, making it a valuable tool for patients and caregivers. The app also provides educational content on fitness, diet, and mindfulness to enhance user knowledge and awareness.Social and community features enable users to share achievements, participate in challenges, and connect with like-minded individuals. Offline mode allows tracking without an internet connection, and data security is ensured through encryption and secure cloud storage.By combining technology, personalized guidance, and community support, HealthMate empowers users to take control of their health, make informed lifestyle choices, and achieve sustainable wellness goals in a safe and engaging manner.",
+    "size": 170,
+    "reviews": 1100,
+    "ratingAvg": 4.6,
+    "downloads": "2M",
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 660 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/Hg-F1BZQ15QdPT_Nrr5HWoQs_h6uzQQ9EkNfrAHT12iRoE5NGWOHB2Oz8tWAFzxHVqsT=w480-h960-rw",
+    "title": "TaskMaster",
+    "companyName": "Productivity Inc.",
+    "id": 114,
+    "description": "TaskMaster is a powerful task management and productivity app that helps users organize, prioritize, and complete daily tasks efficiently. The app allows users to create task lists, set deadlines, add notes, and assign priorities to manage time effectively. It supports reminders, recurring tasks, and calendar integrations, ensuring nothing is overlooked.TaskMaster offers collaboration features, enabling teams to share tasks, track progress, and communicate seamlessly within the app. Users can assign responsibilities, monitor deadlines, and receive notifications about task completion. With its intuitive interface, TaskMaster makes task organization straightforward and visually clear, with customizable themes and views.The app includes analytical tools to track productivity patterns, identify bottlenecks, and improve workflow efficiency. Offline access ensures that tasks remain available and editable even without internet connectivity. TaskMaster also supports export to popular formats for reporting or backup purposes.With regular updates, synchronization across devices, and user-friendly navigation, TaskMaster is suitable for students, professionals, and teams seeking an organized and efficient approach to managing their tasks. By combining simplicity, functionality, and collaboration features, TaskMaster helps users stay productive, focused, and on top of their commitments.",
+    "size": 80,
+    "reviews": 1000,
+    "ratingAvg": 4.4,
+    "downloads": "1.8M",
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 375 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/E-YqjqHMBIqiEPg-QOcy_HsRAoT5guN7TQJv3SxFqAO0YW6OnnIZuQzqvVEHy891Ng=w480-h960-rw",
+    "title": "ChatBuddy",
+    "companyName": "SocialTech",
+    "id": 115,
+    "description": "ChatBuddy is an advanced messaging and communication platform that allows users to send instant messages, voice notes, and make video calls seamlessly. The app supports group chats, media sharing, and customizable chat settings for a personalized experience. Users can communicate with friends, family, and colleagues effortlessly, with end-to-end encryption ensuring privacy and security.ChatBuddy provides features such as status updates, online presence indicators, and message reactions to keep conversations engaging and interactive. Users can organize contacts, create groups for specific purposes, and manage notifications to focus on important messages. The app also supports stickers, GIFs, and emojis to enhance communication.For businesses, ChatBuddy offers tools for customer support, team collaboration, and broadcast messaging. The app integrates with calendars and productivity tools to streamline communication and coordination. Offline access allows users to read and draft messages without an active internet connection, and messages are synchronized automatically once connectivity is restored. With its reliable performance, secure environment, and rich set of features, ChatBuddy serves as a comprehensive communication solution for personal and professional use. By combining ease-of-use, interactivity, and privacy, ChatBuddy ensures users stay connected with confidence and convenience.",
+    "size": 85,
+    "reviews": 2100,
+    "ratingAvg": 4.5,
+    "downloads": "7M",
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 1150 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/EvAczQlcw1AnFEQ1FAzNAPlHstKiW-nqy8016slfuO0PAL4mzNn3XF82YkvPFCdmcVY=w480-h960-rw",
+    "title": "FitLife",
+    "companyName": "HealthPlus",
+    "id": 116,
+    "description": "FitLife is a complete fitness and wellness app designed to help users achieve their health goals through personalized workout plans, nutrition tracking, and progress monitoring. The app integrates with wearable devices to track steps, heart rate, calories burned, and sleep patterns, providing a holistic view of overall fitness. Users can set goals for weight loss, muscle gain, or endurance improvement, and FitLife generates tailored workout routines and meal plans to support these objectives.The app features guided exercises, video tutorials, and real-time feedback to ensure proper form and effective workouts. FitLife also includes meditation sessions, stress management tips, and hydration reminders to promote overall well-being. Users can track their achievements, view progress reports, and receive motivational notifications to stay consistent.Social features allow users to share workouts, join challenges, and interact with a community of fitness enthusiasts for motivation and support. Offline access ensures workouts can be followed even without an internet connection. FitLife also provides educational content on exercise techniques, nutrition science, and healthy lifestyle habits.With its combination of personalized guidance, interactive tools, and community support, FitLife empowers users to take control of their health and fitness journey, making it suitable for beginners and experienced athletes alike. The app prioritizes usability, reliability, and engagement to help users develop sustainable fitness habits and achieve long-term wellness.",
+    "size": 130,
+    "reviews": 1500,
+    "ratingAvg": 4.6,
+    "downloads": "3.8M",
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 780 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/qo4rQGDCYkmKTavOQZHDdq8fuv7G7e8DTD96uVSW2IB8qYw9QT_eAkyigHkh_SKZDz2a=s96-rw",
+    "title": "MindSpace",
+    "companyName": "WellMind",
+    "id": 117,
+    "description": "MindSpace is a meditation and mental wellness app designed to help users reduce stress, improve focus, and maintain emotional balance. The app offers guided meditation sessions, breathing exercises, mindfulness practices, and sleep stories to support mental well-being. Users can select programs based on goals such as relaxation, anxiety relief, focus enhancement, or better sleep.MindSpace tracks user progress, provides daily reminders, and offers tips for cultivating a mindful lifestyle. The app also includes calming soundscapes, background music, and ambient sounds to enhance meditation sessions. Users can log their moods, reflect on emotions, and develop self-awareness through journaling features.Community features allow users to connect with others, share experiences, and participate in group meditation sessions. Offline mode ensures access to saved content without internet connectivity. MindSpace emphasizes evidence-based techniques, guided by mental health professionals and mindfulness experts, to provide safe and effective practices.By combining structured meditation programs, personalized guidance, and engaging tools, MindSpace empowers users to take control of their mental health, manage stress effectively, and develop habits that promote lasting emotional resilience.",
+    "size": 95,
+    "reviews": 1200,
+    "ratingAvg": 4.7,
+    "downloads": "2.9M",
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 610 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/UxIJEGNjCqIyT0G6juqFUyEv7PcIildbwJSkDzZ77IkoR-oYdDyqVjfAg6CJwUEletw=w480-h960-rw",
+    "title": "ShopSmart",
+    "companyName": "RetailWorld",
+    "id": 118,
+    "description": "ShopSmart is a smart shopping app designed to simplify the online retail experience by providing personalized recommendations, price comparisons, and exclusive discounts. Users can browse products across multiple categories such as electronics, fashion, groceries, and home essentials. ShopSmart tracks user preferences and shopping history to suggest products that match their interests.The app offers detailed product descriptions, high-resolution images, customer reviews, and ratings to help users make informed decisions. ShopSmart integrates secure payment gateways, order tracking, and notifications for delivery updates, ensuring a smooth and convenient shopping process. Users can save items in wishlists, set alerts for price drops, and access special promotions and coupons.For sellers and brands, ShopSmart provides analytics tools, inventory management, and marketing features to reach customers effectively. The app supports offline browsing of saved products, ensuring users can plan their shopping even without an internet connection. With a user-friendly interface and fast search capabilities, ShopSmart transforms online shopping into a seamless, efficient, and enjoyable experience.By combining personalization, convenience, and reliability, ShopSmart empowers users to save time, discover new products, and make cost-effective purchases, making it an essential tool for modern consumers seeking smarter shopping solutions.",
+    "size": 125,
+    "reviews": 1400,
+    "ratingAvg": 4.5,
+    "downloads": "3.2M",
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 570 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/qzd5vlydFBIqYusKaQbrHSBsXPM4yi5kHuuspRPu-fTyw7bFwvthksMiSEGY1cUcJuw=w480-h960-rw",
+    "title": "TravelBuddy",
+    "companyName": "WanderTech",
+    "id": 119,
+    "description": "TravelBuddy is an all-in-one travel app designed to make planning and experiencing trips easier and more enjoyable. Users can discover destinations, book flights, hotels, and activities, and create customized itineraries. The app provides detailed guides, maps, travel tips, and local insights to help users explore new places efficiently. TravelBuddy offers real-time updates on flight status, weather conditions, and nearby attractions to enhance trip planning .The app includes offline maps and navigation, language translation, currency converters, and emergency contacts to support international travel. Users can share itineraries with friends, receive personalized recommendations, and access reviews and ratings for accommodations and activities. TravelBuddy also integrates with social media to document trips and connect with fellow travelers. For travel enthusiasts and professionals, the app provides planning tools, alerts, and suggestions for optimizing travel schedules. Offline access ensures users can navigate and consult their plans without relying on internet connectivity. By combining convenience, guidance, and personalized support, TravelBuddy transforms travel planning into a seamless, efficient, and memorable experience.",
+    "size": 135,
+    "reviews": 1100,
+    "ratingAvg": 4.4,
+    "downloads": "2.7M",
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 410 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/JD80mF8UDhg4PqbhQ49_KbF3jdLS86krio_RRBlXWLQg9w9SRrQP1fM6cl6N80OF8mA=w480-h960-rw",
+    "title": "PhotoEditor Pro",
+    "companyName": "CreativeTech",
+    "id": 120,
+    "description": "PhotoEditor Pro is a professional photo editing app that enables users to enhance, retouch, and creatively manipulate images with a wide range of tools and effects. The app provides filters, overlays, text tools, cropping, resizing, and background removal, giving users complete control over their images. Advanced features include selective adjustments, layers, masks, and AI-powered enhancements for stunning results. PhotoEditor Pro supports both casual users and professional photographers by offering a balance of simplicity and advanced controls. Users can save projects, share edited images directly to social media, or export them in multiple formats. The app includes tutorials, tips, and pre-designed templates to guide users in achieving creative outcomes. Cloud storage and synchronization ensure projects are accessible across devices. Offline editing capabilities allow users to work without an internet connection, making it convenient for on-the-go editing. With regular updates and a user-friendly interface, PhotoEditor Pro empowers users to bring their creative vision to life and achieve professional-quality results with ease.",
+    "size": 145,
+    "reviews": 1700,
+    "ratingAvg": 4.6,
+    "downloads": "4.2M",
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 910 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/cDgwJPIFR1_jXdUaj0snY4KM5Snx7DI5zn0iFpgOKxn-mcDm7mSSOuXP2TsFTX1Kq5J0=w480-h960-rw",
+    "title": "StudyBuddy",
+    "companyName": "EduLearn",
+    "id": 121,
+    "description": "StudyBuddy is a comprehensive educational app designed to help students of all ages excel in their studies. The app provides a wide range of learning resources, including video lessons, interactive quizzes, practice tests, and study guides across multiple subjects such as mathematics, science, languages, and social studies. Students can create personalized study schedules, track their progress, and receive performance insights to identify strengths and areas needing improvement.StudyBuddy supports collaborative learning by allowing students to join study groups, discuss concepts, and share notes with peers. The app includes gamification features such as badges, leaderboards, and challenges to motivate users and make learning engaging. Users can also set reminders for assignments, exams, and revision sessions to stay organized and focused. Offline access ensures that students can study anytime, anywhere, even without an internet connection. The app emphasizes adaptive learning, using AI-driven recommendations to suggest content based on individual performance and learning pace. StudyBuddy also provides resources for exam preparation, competitive tests, and skill development.With its intuitive interface, comprehensive content, and personalized learning tools, StudyBuddy empowers students to take control of their education, improve academic performance, and build confidence in their abilities, making it an indispensable tool for modern learners.",
+    "size": 110,
+    "reviews": 1300,
+    "ratingAvg": 4.7,
+    "downloads": "3.5M",
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 670 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/F4p6eCB-tfxN76M-XDaDx3ZfNCgXTGurpxFQJJXk--hRZe-pghw4H8gw_QLV9LJ0qFHl=w480-h960-rw",
+    "title": "EventPlanner",
+    "companyName": "OrganizeIt",
+    "id": 122,
+    "description": "EventPlanner is an all-in-one event management app designed to help users plan, organize, and execute events efficiently. From weddings and corporate meetings to parties and community gatherings, EventPlanner provides tools for scheduling, budgeting, guest management, and task tracking. Users can create detailed timelines, set reminders, and assign responsibilities to ensure smooth coordination. The app features interactive checklists, vendor management, seating arrangements, and RSVP tracking. EventPlanner also provides templates, tips, and best practices for various types of events. Users can share event details with participants, send notifications, and receive confirmations in real-time.EventPlanner supports collaboration, allowing teams, family members, or colleagues to contribute to planning, update tasks, and monitor progress. The app includes analytics to track expenses, timelines, and overall event status. Offline access ensures that users can continue planning even without internet connectivity.With its combination of organization, collaboration, and convenience, EventPlanner empowers users to plan memorable events with minimal stress and maximum efficiency. By streamlining all aspects of event management, the app ensures that every detail is accounted for and every event runs smoothly.",
+    "size": 125,
+    "reviews": 1100,
+    "ratingAvg": 4.4,
+    "downloads": "2.8M",
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 410 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/Voya0jfoXVuGGSL_9DRWsnZr_Okr7Wcse_v_Ow31yDN_MGBd-Truu-W3W9ee5yFcLQ=w480-h960-rw",
+    "title": "RecipeMaster",
+    "companyName": "CookTech",
+    "id": 123,
+    "description": "RecipeMaster is a comprehensive cooking app that provides users with thousands of recipes, meal plans, and cooking tips. Whether you are a beginner or an experienced chef, the app offers step-by-step instructions, ingredient lists, and video tutorials for a wide range of cuisines and dietary preferences. Users can search recipes by ingredients, cuisine, difficulty level, or preparation time, making it easy to find the perfect dish.The app includes meal planning features, shopping lists, nutritional information, and calorie tracking to support healthy eating habits. RecipeMaster also allows users to save favorite recipes, create personalized collections, and share recipes with friends and family. Seasonal recommendations and trending dishes ensure that users are always inspired in the kitchen.RecipeMaster provides community features where users can post photos, write reviews, and interact with other cooking enthusiasts. Offline access ensures that recipes are always available even without an internet connection. With AI-powered suggestions, the app can recommend recipes based on ingredients you have at home.By combining creativity, convenience, and personalization, RecipeMaster helps users explore new flavors, improve cooking skills, and enjoy a more organized and enjoyable culinary experience.",
+    "size": 140,
+    "reviews": 1400,
+    "ratingAvg": 4.6,
+    "downloads": "3.1M",
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 630 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/tKRi2jYqdNk9zLepkQeXODta4mkQm7zYd0ambUfYKKJovTScgm47tH8GVX1E79Yj5Q=w480-h960-rw",
+    "title": "LanguageLab",
+    "companyName": "LinguaTech",
+    "id": 124,
+    "description": "LanguageLab is a comprehensive language learning app that helps users acquire new languages efficiently through interactive lessons, practice exercises, and immersive experiences. The app covers a wide range of languages and provides speaking, listening, reading, and writing exercises to develop all aspects of communication. Users can follow structured learning paths, practice pronunciation, and receive feedback in real-time.LanguageLab includes gamified lessons, quizzes, and daily challenges to make learning engaging and motivating. Users can track progress, earn badges, and set personal goals to maintain consistency. The app also offers conversation practice, cultural insights, and vocabulary-building exercises to enhance practical language skills.Offline access ensures that lessons and exercises are available without internet connectivity. Users can also join study groups, participate in discussion forums, and interact with native speakers to improve fluency. LanguageLab uses AI-driven recommendations to personalize learning, adapting to the user's pace and proficiency level.By combining structured instruction, interactive tools, and community support, LanguageLab empowers users to learn new languages effectively, build confidence, and develop skills that open doors to personal and professional opportunities.",
+    "size": 130,
+    "reviews": 1200,
+    "ratingAvg": 4.5,
+    "downloads": "2.7M",
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 610 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/QfyIoKp-d1L62AcppEh0lZVChF9imLdhUkv5RJ-qEIiF6tlzUB6tAs_OkldT5VjwWw=w480-h960-rw",
+    "title": "BudgetWise",
+    "companyName": "MoneySmart",
+    "id": 125,
+    "description": "BudgetWise is a personal finance and budgeting app designed to help users manage income, expenses, and savings effectively. The app allows users to set budgets, track spending, categorize transactions, and monitor financial goals. BudgetWise provides detailed analytics, visual charts, and reports to help users understand spending habits and make informed financial decisions.The app integrates with bank accounts and payment platforms to provide real-time updates on account balances and transactions. Users can receive alerts for overspending, upcoming bills, or irregular activity. BudgetWise also offers financial planning tools, tips for saving, and investment guidance to improve overall financial health.Community features allow users to share budgeting tips, join challenges, and learn from financial experts. Offline access ensures that budget data and transaction records are available without internet connectivity. The app prioritizes security with encryption, two-factor authentication, and secure cloud storage.By combining detailed insights, personalized recommendations, and easy-to-use tools, BudgetWise empowers users to take control of their finances, reduce financial stress, and achieve both short-term and long-term financial goals efficiently and confidently.",
+    "size": 115,
+    "reviews": 1500,
+    "ratingAvg": 4.6,
+    "downloads": "3.3M",
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 760 }
+    ]
+  }
+
+
+
+
+
+
+
+]
+
+
+
+
+

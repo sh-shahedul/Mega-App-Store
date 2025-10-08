@@ -1,0 +1,38 @@
+import React from 'react';
+import Banner from '../../Component/Banner/Banner';
+import { Link,  } from 'react-router';
+import AppsCard from '../AppsCard/AppsCard';
+import useApps from '../../Hooks/useApps';
+
+const Home = () => {
+
+  const {apps,loading,error}=useApps()
+  const sliceApp=apps.slice(0,8)
+  console.log(sliceApp)
+
+    return (
+        <div className='bg-base-200'>
+          <Banner></Banner>
+          
+          <h1 className='text-3xl font-bold  text-center'>Trending Apps</h1>
+          <p className='text-base text-center font-medium text-gray-500 mt-3'>Explore All Trending Apps on the Market developed by us</p>
+          
+           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5'>
+             {
+              
+                sliceApp.map(app=><AppsCard key={app.id} app={app}></AppsCard> )
+            
+            }
+           </div>
+           
+           
+            <div className='flex justify-center items-center  p-10 '>
+              <Link className="btn bg-gradient-to-r px-10 from-violet-600 to-fuchsia-500 text-base text-white" to='/apps'>Show All</Link>
+            </div>
+           
+          
+        </div>
+    );
+};
+
+export default Home;
