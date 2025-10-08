@@ -3,6 +3,7 @@ import Banner from '../../Component/Banner/Banner';
 import { Link,  } from 'react-router';
 import AppsCard from '../AppsCard/AppsCard';
 import useApps from '../../Hooks/useApps';
+import Loading from '../Loading/Loading';
 
 const Home = () => {
 
@@ -17,6 +18,8 @@ const Home = () => {
           <h1 className='text-3xl font-bold  text-center'>Trending Apps</h1>
           <p className='text-base text-center font-medium text-gray-500 mt-3'>Explore All Trending Apps on the Market developed by us</p>
           
+          {
+            loading ? <Loading/> :
            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5'>
              {
               
@@ -24,6 +27,7 @@ const Home = () => {
             
             }
            </div>
+          }
            
            
             <div className='flex justify-center items-center  p-10 '>

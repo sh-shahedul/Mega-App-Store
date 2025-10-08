@@ -1,17 +1,30 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import useApps from "../../Hooks/useApps";
 import AppsCard from "../AppsCard/AppsCard";
 import { Link } from "react-router";
+import Loading from "../Loading/Loading";
 
 const Apps = () => {
-    const {apps}=useApps()
+    const {apps,loading}=useApps()
     const [serch,setSerch]=useState('')
+    const [searchLoading, setSearchLoading] = useState(false);
 
 
     const term = serch.trim().toLocaleLowerCase()
-    const serchProduct = term ? apps.filter(a=>a.title.toLocaleLowerCase().includes(term)):apps
+    const serchApp = term ? apps.filter(a=>a.title.toLocaleLowerCase().includes(term)):apps
+    useEffect(() => {
+        if (term) {
+          setSearchLoading(true);
+          setTimeout(() => setSearchLoading(false), 200); 
+        } else {
+          setSearchLoading(false);
+        }
+    }, [term]);
 
-    const noResults = term && serchProduct.length === 0;
+
+
+
+    const noResults = term && serchApp.length === 0;
   return (
     <div className="bg-base-200">
       <div className="text-center py-10">
@@ -24,7 +37,7 @@ const Apps = () => {
       <div>
         <div className=" md:flex justify-between items-center py-5 ">
           <h1 className="text-3xl font-semibold text-violet-600">
-            All App<span className="text-sm text-gray-500">({serchProduct.length}) App found</span>
+            All App<span className="text-sm text-gray-500">({serchApp.length}) App found</span>
           </h1>
 
           <label
@@ -59,15 +72,17 @@ const Apps = () => {
         </div>
       </div>
 
-     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+     {
+      loading ? <Loading/> : searchLoading ? <Loading/> : <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
         {
        noResults ? 
          <div className=" text-center grid col-span-4 p-20">
             <p className=" text-violet-500 text-5xl font-bold"> No Apps Found</p>
          </div>
-          : serchProduct.map((app)=><AppsCard key={app.id} app={app}></AppsCard>)
+          : serchApp.map((app)=><AppsCard key={app.id} app={app}></AppsCard>)
          }
      </div>
+     }
 
     </div>
   );

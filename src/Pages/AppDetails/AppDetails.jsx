@@ -76,7 +76,7 @@ const AppDetails = () => {
          <div className="card-actions justify-start mt-4">
           <button disabled={isDisabled}  onClick={handelClick}  className={`px-4 py-2 rounded font-bold text-white ${
         isDisabled ? "bg-violet-600 cursor-not-allowed" : "bg-[#00D390] hover:bg-white hover:text-[#00D390] "
-      }`}>{isDisabled? 'Installed' : "Install Now "  }({size}MB) </button>
+      }`}>{isDisabled? 'Installed' : `Install Now (${size})`} </button>
           <button onClick={()=>Navigate(-1)} className=' px-4 py-2 rounded font-bold text-white  bg-violet-600  hover:text-violet-600 hover:bg-white  hover:border-2 hover:border-violet-600'>Go Back</button>
         </div> 
       </div>
@@ -105,7 +105,7 @@ const AppDetails = () => {
       {/* description  */}
      <div className='mt-6 p-6'>     
       <h3 className='text-2xl font-bold '>Discription</h3>
-      <h5 className='text-base text-gray-500 mt-3'>{description}</h5>
+      <h5 className='md:text-base text-sm text-gray-500 mt-3'>{description}</h5>
      </div>
     <ToastContainer />
     </div>

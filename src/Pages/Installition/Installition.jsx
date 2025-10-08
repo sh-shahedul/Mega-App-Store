@@ -16,9 +16,8 @@ const Installition = () => {
     },[])
 
 
-      if(appList.length===0) {
-    return <p className="text-3xl flex justify-center items-center text-violet-600 font-bold mt-20">No Data Avaiable</p>
-  }
+      
+  
     // sort  App
     const sortApps = (
         ()=>{
@@ -47,6 +46,11 @@ const Installition = () => {
 
     return (
          <div className='bg-base-200 '>
+            <div className='p-10'>
+                <h1 className='text-4xl font-bold text-center'>Your Installed Apps</h1>
+                <p className='text-xl text-gray-500 text-center font-medium'>Explore All Trending Apps on the Market developed by us</p>
+
+            </div>
             {/* sort apps length  */}
       <div className=" md:flex justify-between items-center py-5">
         <div className=" md:flex justify-between items-center py-5 ">
@@ -90,13 +94,14 @@ const Installition = () => {
 
             {/* install apps  */}
             {
-                sortApps.map(a=>   <div key={a.id} className="flex bg-white justify-between items-center shadow-sm md:gap-10 md:px-4 my-5 pr-2">
+
+     (appList.length===0) ?
+          <p className="text-3xl flex justify-center items-center text-violet-600 font-bold  p-30">No Data Avaiable</p>
+          :
+
+          sortApps.map(a=>   <div key={a.id} className="flex bg-white justify-between items-center shadow-sm md:gap-10 md:px-4 my-5 pr-2">
           <figure className="  rounded-lg  p-3 ">
-            <img
-              className="md:h-[100px] w-[70px] md:w-[180px]   "
-              src={a.image}
-              alt={a.companyName}
-            />
+            <img className="md:h-[100px] w-[70px] md:w-[180px]" src={a.image} alt={a.companyName}/>
           </figure>
           <div className="flex flex-col flex-1 md:ml-5 ">
             <h2 className=" md:text-xl text-sm font-bold">{a.title}</h2>
