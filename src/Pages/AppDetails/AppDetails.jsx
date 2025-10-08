@@ -6,9 +6,10 @@ import  reviewIcon from '../../assets/icon-review.png'
 import  ratingIcon from '../../assets/icon-ratings.png'
 import downloadIcon from '../../assets/icon-downloads.png'
 import { BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid, ResponsiveContainer } from "recharts";
+import { toast, ToastContainer } from 'react-toastify';
 const AppDetails = () => {
 
-  // const [isDisabled,setISDisabled]=useState(false)
+  const [isDisabled,setISDisabled]=useState(false)
 
 
 
@@ -17,8 +18,17 @@ const AppDetails = () => {
     const app = apps.find((a) => a.id === Number(id));
     const {  image, companyName, description, downloads,ratingAvg,size ,title,reviews,ratings} =app || {};
 
+ const handelClick=()=>{
+  setISDisabled(!isDisabled)
+  toast.success(
+    <strong>{title} Installed Succesfully</strong>
+  
+  )
 
 
+  
+ }
+   
 
    
 
@@ -52,7 +62,9 @@ const AppDetails = () => {
         </div>
 
          <div className="card-actions justify-start mt-4">
-          <button   className="btn bg-[#00D390] text-white hover:border-2 hover:border-[#00D390] hover:text-[#00D390] hover:bg-white">Install Now ({size}MB)</button>
+          <button disabled={isDisabled}  onClick={handelClick}  className={`px-4 py-2 rounded font-bold text-white ${
+        isDisabled ? "bg-red-600 cursor-not-allowed" : "bg-[#00D390] hover:bg-white hover:text-[#00D390] "
+      }`}>{isDisabled? 'Installed' : "Install Now "  }({size}MB) </button>
          
         </div> 
       </div>
@@ -71,7 +83,7 @@ const AppDetails = () => {
         <BarChart
           data={ratings}
           layout="vertical"
-          margin={{ top: 10, right: 30, left: 30, bottom: 10 }}
+        
         >
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis type="number" />
@@ -112,7 +124,7 @@ const AppDetails = () => {
       <h3 className='text-2xl font-bold '>Discription</h3>
       <h5 className='text-xl text-gray-500 mt-3'>{description}</h5>
     </div>
-    
+    <ToastContainer />
     </div>
   )
 }
