@@ -4,7 +4,7 @@ import { FaStar } from "react-icons/fa";
 import { Link } from 'react-router';
 const AppsCard = ({app}) => {
     return (
-       <Link to={`/apps/${app.id}`} className="card bg-base-100  shadow-lg hover:scale-103 transition ease-in-out p-3 mt-10 ">
+       <Link to={`/apps/${app.id}`} className="card bg-base-100  shadow-lg hover:scale-103 transition ease-in-out p-3 mb-3">
   <figure className=' h-75 overflow-hidden  '>
     <img className='w-full object-cover '
       src={app.image}

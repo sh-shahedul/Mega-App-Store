@@ -26,22 +26,22 @@ const Apps = () => {
 
     const noResults = term && serchApp.length === 0;
   return (
-    <div className="bg-base-200">
-      <div className="text-center py-10">
-        <h1 className="text-5xl font-bold ">Our All Applications</h1>
-        <p className="text-xl text-gray-500 font-semibold mt-5">
+    <div className="py-5">
+      <div className="text-center md:py-10 ">
+        <h1 className="md:text-5xl font-bold  text-3xl">Our All Applications</h1>
+        <p className="md:text-xl text-base text-gray-500 font-semibold mt-5">
           Explore All Apps on the Market developed by us. We code for Millions
         </p>
       </div>
 
       <div>
-        <div className=" md:flex justify-between items-center py-5 ">
-          <h1 className="text-3xl font-semibold text-violet-600">
+        <div className=" md:flex justify-between items-center py-5 mb-5 ">
+          <h1 className="text-3xl font-semibold text-violet-600 mb-5">
             All App<span className="text-sm text-gray-500">({serchApp.length}) App found</span>
           </h1>
 
           <label
-            className="input flex items-center gap-2  rounded-md px-2 
+            className="input  flex items-center gap-2  rounded-md px-2 
                       focus-within:outline-none focus-within:ring-0 focus-within:shadow-none border-2 border-violet-600"
           >
             <svg
@@ -73,7 +73,7 @@ const Apps = () => {
       </div>
 
      {
-      loading ? <Loading/> : searchLoading ? <Loading/> : <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+      loading ? <Loading/> : searchLoading ? <Loading/> : <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-4 gap-5 ">
         {
        noResults ? 
          <div className=" text-center grid col-span-4 p-20">

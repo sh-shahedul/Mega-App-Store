@@ -3,9 +3,10 @@ import { MdDownload } from "react-icons/md";
 import { FaStar } from "react-icons/fa";
 import { toast, ToastContainer } from 'react-toastify';
 import useApps from '../../Hooks/useApps';
+import Loading from '../Loading/Loading';
 
 const Installition = () => {
-    const {apps}=useApps()
+    const {apps,loading}=useApps()
     const [appList,setAppList]=useState([])
     const [sortOrder,setSortOrder]=useState('none')
     useEffect(()=>{
@@ -57,7 +58,7 @@ const Installition = () => {
           
             
             <span className="text-2xl font-bold text-violet-600">
-              ({sortApps.length}) Apps found
+            Inatall App  ({sortApps.length}) 
             </span>
         
         </div>
@@ -97,11 +98,11 @@ const Installition = () => {
 
      (appList.length===0) ?
           <p className="text-3xl flex justify-center items-center text-violet-600 font-bold  p-30">No Data Avaiable</p>
-          :
+          : loading? <Loading/>:
 
           sortApps.map(a=>   <div key={a.id} className="flex bg-white justify-between items-center shadow-sm md:gap-10 md:px-4 my-5 pr-2">
           <figure className="  rounded-lg  p-3 ">
-            <img className="md:h-[100px] w-[70px] md:w-[180px]" src={a.image} alt={a.companyName}/>
+            <img className="md:h-[100px] w-[70px] md:w-[130px]" src={a.image} alt={a.companyName}/>
           </figure>
           <div className="flex flex-col flex-1 md:ml-5 ">
             <h2 className=" md:text-xl text-sm font-bold">{a.title}</h2>

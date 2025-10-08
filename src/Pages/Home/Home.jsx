@@ -7,7 +7,7 @@ import Loading from '../Loading/Loading';
 
 const Home = () => {
 
-  const {apps,loading,error}=useApps()
+  const {apps,loading}=useApps()
   const sliceApp=apps.slice(0,8)
   console.log(sliceApp)
 
@@ -16,11 +16,11 @@ const Home = () => {
           <Banner></Banner>
           
           <h1 className='text-3xl font-bold  text-center'>Trending Apps</h1>
-          <p className='text-base text-center font-medium text-gray-500 mt-3'>Explore All Trending Apps on the Market developed by us</p>
+          <p className='text-base text-center font-medium text-gray-500 mt-3 mb-8'>Explore All Trending Apps on the Market developed by us</p>
           
           {
             loading ? <Loading/> :
-           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5'>
+           <div className='grid grid-cols-1  md:grid-cols-2 lg:grid-cols-4 gap-5'>
              {
               
                 sliceApp.map(app=><AppsCard key={app.id} app={app}></AppsCard> )
