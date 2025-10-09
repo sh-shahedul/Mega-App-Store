@@ -23,9 +23,9 @@ const Installition = () => {
     const sortApps = (
         ()=>{
         if(sortOrder==='asc'){
-            return [...appList].sort((a,b)=>a.size-b.size)
+            return [...appList].sort((a,b)=>parseFloat(a.downloads) - parseFloat(b.downloads))
         }else if(sortOrder==='desc'){
-            return[...appList].sort((a,b)=>b.size-a.size)
+            return[...appList].sort((a,b)=>parseFloat(b.downloads) - parseFloat(a.downloads))
         }else{
             return appList
         }
@@ -69,7 +69,7 @@ const Installition = () => {
           className="select input flex items-center gap-2  rounded-md px-2 
                       focus-within:outline-none focus-within:ring-0 text-violet-600 font-semibold focus-within:shadow-none border-2 border-violet-600"
         >
-          <option className="text-violet-600 font-semibold" value="none">Sort By Size</option>
+          <option className="text-violet-600 font-semibold" value="none">Sort By Download</option>
           <option className="text-violet-600 font-semibold" value="asc">Low -&gt; High</option>
           <option className="text-violet-600 font-semibold" value="desc">HIgh -&gt; Low</option>
         </select>
@@ -116,7 +116,7 @@ const Installition = () => {
 
           <div className="  flex justify-center items-center md:gap-5 gap-2">
            
-            <button onClick={()=>handelRemove(a.id)} className=" bg-violet-600 text-white p-1 md:p-2 text-sm md:text-base md:font-medium rounded-sm " >
+            <button onClick={()=>handelRemove(a.id)} className=" bg-violet-600 text-white p-1 md:p-2 text-sm md:text-base md:font-medium rounded-sm hover:bg-red-600 " >
               Unstall
             </button>
           </div>

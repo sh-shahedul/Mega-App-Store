@@ -5,6 +5,7 @@ import AppsCard from '../AppsCard/AppsCard';
 import useApps from '../../Hooks/useApps';
 import Loading from '../Loading/Loading';
 
+
 const Home = () => {
 
   const {apps,loading}=useApps()
@@ -13,6 +14,7 @@ const Home = () => {
 
     return (
         <div className='bg-base-200'>
+            
           <Banner></Banner>
           
           <h1 className='text-3xl font-bold  text-center'>Trending Apps</h1>

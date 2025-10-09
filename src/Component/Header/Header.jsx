@@ -34,7 +34,7 @@ const Header = () => {
     </div>
       <div className='flex justify-center items-center gap-2'>
       <img className=' w-[35px] h-[35px] md:w-[60px]  md:h-[50px]'  src={logo} alt="" />
-     <Link to="/" className=" text-xl md:text-2xl font-bold text-violet-600"> HERO.IO </Link>
+     <Link to="/" className=" text-xl md:text-2xl font-bold text-violet-600"> MegaApp Store </Link>
      </div>
   </div>
   <div className="navbar-center hidden lg:flex">

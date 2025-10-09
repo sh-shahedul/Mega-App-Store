@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 
 import useApps from '../../Hooks/useApps';
-import { Navigate, useNavigate, useParams } from 'react-router';
+import {   useNavigate, useParams } from 'react-router';
 import  reviewIcon from '../../assets/icon-review.png'
 import  ratingIcon from '../../assets/icon-ratings.png'
 import downloadIcon from '../../assets/icon-downloads.png'
 import { BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid, ResponsiveContainer, Legend } from "recharts";
 import { toast, ToastContainer } from 'react-toastify';
+import NotFoundPage from '../NotFoundPage/NotFoundPage';
 const AppDetails = () => {
 
   const Navigate =useNavigate()
@@ -14,13 +15,19 @@ const AppDetails = () => {
     const { id } = useParams();
     const {apps}=useApps()
     const app = apps.find((a) => a.id === Number(id));
+    
     const {  image, companyName, description, downloads,ratingAvg,size ,title,reviews,ratings} =app || {};
+
+    
 
      const [isDisabled, setISDisabled] = useState(() => {
     const installedApps = JSON.parse(localStorage.getItem('installApps')) || [];
     return installedApps.some(a => a.id === Number(id));
   });
-    
+     
+if(!app){
+      return <NotFoundPage></NotFoundPage>
+    }
 
   // add local sorage and disable button when click 
  const handelClick=()=>{
@@ -46,6 +53,7 @@ const AppDetails = () => {
   return (
     <div className='bg-base-200'>
       {/* details card  */}
+      
       <div className=" md:flex justify-start items-start md:p-8 gap-30 ">
       <figure className="  bg-gray-200  rounded-lg  ">
         <img className="md:h-[270px] md:w-[370px]  " src={image} alt={title} />
@@ -69,7 +77,7 @@ const AppDetails = () => {
             <div>
             <img className='h-8' src={reviewIcon} alt="" />
             <h5 className='md:font-base text-sm text-gray-500 mt-2'>Total Reviews</h5>
-            <h1 className='md:text-2xl text-xl font-bold'>{reviews}</h1>
+            <h1 className='md:text-2xl text-xl font-bold'>{reviews}K</h1>
            </div>
         </div>
 

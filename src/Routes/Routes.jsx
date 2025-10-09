@@ -6,6 +6,10 @@ import Home from '../Pages/Home/Home';
 import AppDetails from '../Pages/AppDetails/AppDetails';
 import Apps from '../Pages/Apps/Apps';
 import Installition from '../Pages/Installition/Installition';
+import NotFoundPage from '../Pages/NotFoundPage/NotFoundPage';
+
+
+
 
 export const router = createBrowserRouter([
   {
@@ -25,12 +29,14 @@ export const router = createBrowserRouter([
         },
         {
             path:'/install',
-            Component:Installition
+            Component:Installition,
         },
         {
             path:'/apps/:id',
             Component:AppDetails,
-        }
+            
+        },
+       
     ]
   },
 ]);

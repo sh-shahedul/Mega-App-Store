@@ -3,10 +3,12 @@ import errorImage from '../../assets/error-404.png'
 import { Link } from 'react-router';
 import Header from '../../Component/Header/Header';
 import Footer from '../../Component/Footer/Footer';
+
 const ErrorPage = () => {
     return (
         <div>
             <Header></Header>
+           
         <div className='bg-base-200'>
             <div className='flex flex-col justify-center items-center md:p-30 p-5'>
                 <img className='md:w-[300px] w-[150px]' src={errorImage} alt="" />
