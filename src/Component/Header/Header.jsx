@@ -6,7 +6,7 @@ import { FaGithub } from "react-icons/fa";
 const Header = () => {
     return (
         <div className=" bg-base-100 shadow-sm">
-  <div className='navbar max-w-screen-2xl mx-auto '>
+  <div className='navbar max-w-screen-2xl mx-auto md:p-5 p-3'>
     <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -32,10 +32,10 @@ const Header = () => {
           </li>
       </ul>
     </div>
-      <div className='flex justify-between items-center gap-2 '>
+      <Link  to="/" className='flex justify-between items-center gap-2 '>
       <img className=' w-[30px] h-[35px]  md:w-[60px]  md:h-[50px]'  src={logo} alt="" />
-     <Link to="/" className=" text-xl md:text-2xl font-bold text-violet-600  "> MegaApp <span className='md:text-2xl text-lg text-fuchsia-500 md:text-violet-600 '>Store</span> </Link>
-     </div>
+     <p className=" text-xl md:text-2xl font-bold text-violet-600  "> MegaApp <span className='md:text-2xl text-lg text-fuchsia-500 md:text-violet-600 '>Store</span> </p>
+     </Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">

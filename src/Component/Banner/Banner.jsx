@@ -7,9 +7,9 @@ import applestore from '../../assets/Group1.png'
 import hero from '../../assets/hero.png'
 const Banner = () => {
     return (
-        <div className=' max-w-screen-2xl mx-auto bg-base-200 text-center md:py-10 py-7'>
+        <div className='  bg-base-200 text-center md:py-10 py-7'>
            <h1 className='md:text-5xl text-3xl font-bold'> We Build <br /> <span className='text-violet-600'>Productive</span> Apps</h1> 
-            <p className='font-semibold md:text-base text-[16px] max-w-[780px] mx-auto mt-4 text-gray-500'>At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.   Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
+            <p className='font-semibold md:text-base text-[16px] max-w-[780px] mx-auto mt-4 text-gray-500 p-1'>At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.   Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
             <div className=' flex gap-2 justify-center mt-5'>
                 <Link className='btn text-lg font-semibold shadow-lg border border-gray-300  ' to='https://play.google.com/store/games?hl=en'> <img className='w-6 h-6' src={playstore} alt="" />Google Play</Link>
                 <Link className='btn  text-lg font-semibold shadow-lg border  border-gray-300 ' to='https://www.apple.com/app-store/'> <img  className='w-6 h-6' src={applestore} alt="" />App Store</Link>
