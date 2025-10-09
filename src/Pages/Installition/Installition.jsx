@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { MdDownload } from "react-icons/md";
 import { FaStar } from "react-icons/fa";
-import { toast, ToastContainer } from 'react-toastify';
+// import { toast, ToastContainer } from 'react-toastify';
 import useApps from '../../Hooks/useApps';
 import Loading from '../Loading/Loading';
+import { toast } from 'react-toastify';
 
 const Installition = () => {
     const {apps,loading}=useApps()
@@ -34,7 +35,7 @@ const Installition = () => {
 
     // remove apps 
     const handelRemove =(id)=>{
-         toast.success(<strong>{apps.title} Un-Installed from your Device</strong>)
+         toast(<strong>{apps.title} Un-Installed from your Device</strong>)
         const existingList = JSON.parse(localStorage.getItem('installApps'))
 
        let updatetdList = existingList.filter(a=>a.id!==id)
@@ -123,7 +124,7 @@ const Installition = () => {
         </div>)
             }
 
-            <ToastContainer />
+            {/* <ToastContainer position='center' /> */}
         </div>
     );
 };

@@ -6,8 +6,9 @@ import  reviewIcon from '../../assets/icon-review.png'
 import  ratingIcon from '../../assets/icon-ratings.png'
 import downloadIcon from '../../assets/icon-downloads.png'
 import { BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid, ResponsiveContainer, Legend } from "recharts";
-import { toast, ToastContainer } from 'react-toastify';
+// import { toast, ToastContainer } from 'react-toastify';
 import NotFoundPage from '../NotFoundPage/NotFoundPage';
+import { toast } from 'react-toastify';
 const AppDetails = () => {
 
   const Navigate =useNavigate()
@@ -32,7 +33,7 @@ if(!app){
   // add local sorage and disable button when click 
  const handelClick=()=>{
   setISDisabled(true)
-  toast.success(<strong>{title} Installed Succesfully</strong>)
+  toast(<strong>{title} Installed Succesfully</strong>)
 
    const existingList = JSON.parse(localStorage.getItem('installApps'))
    console.log(existingList)
@@ -115,7 +116,7 @@ if(!app){
       <h3 className='text-2xl font-bold '>Discription</h3>
       <h5 className='md:text-base text-sm text-gray-500 mt-3'>{description}</h5>
      </div>
-    <ToastContainer />
+    {/* <ToastContainer position='center' /> */}
     </div>
   )
 }

@@ -3,7 +3,12 @@ import React from 'react';
 const Footer = () => {
     return (
        <footer className=" bg-black text-white  ">
-  <div className=' footer md:flex justify-between max-w-screen-2xl mx-auto px-15 py-10'>
+  <div className=' footer md:flex justify-between max-w-screen-2xl mx-auto md:px-15 px-6 py-10'>
+    <div>
+      <h1 className='footer-title'>Explore App</h1>
+      <p className='max-w-[400px]'>  Mega App Store is a modern platform that lets  users explore, discover, and download a wide variety of applications with ease. From productivity tools to entertainment apps,  Mega App Store offers a smooth experience, fast downloads,and detailed app information — all in
+       one convenient,user-friendly place.</p>
+    </div>
     <nav>
     <h6 className="footer-title">Services</h6>
     <a className="link link-hover">Branding</a>

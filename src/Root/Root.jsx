@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../Component/Header/Header';
 import { Outlet } from 'react-router';
 import Footer from '../Component/Footer/Footer';
-import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer } from 'react-toastify';
 const Root = () => {
     return (
         <div className="flex flex-col min-h-screen">
@@ -11,6 +11,7 @@ const Root = () => {
                 <Outlet></Outlet>
             </div>
             <Footer></Footer>
+            <ToastContainer/>
         </div>
     );
 };

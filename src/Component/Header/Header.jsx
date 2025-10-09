@@ -32,9 +32,9 @@ const Header = () => {
           </li>
       </ul>
     </div>
-      <div className='flex justify-center items-center gap-2'>
-      <img className=' w-[35px] h-[35px] md:w-[60px]  md:h-[50px]'  src={logo} alt="" />
-     <Link to="/" className=" text-xl md:text-2xl font-bold text-violet-600"> MegaApp Store </Link>
+      <div className='flex justify-between items-center gap-2 '>
+      <img className=' w-[30px] h-[35px]  md:w-[60px]  md:h-[50px]'  src={logo} alt="" />
+     <Link to="/" className=" text-xl md:text-2xl font-bold text-violet-600  "> MegaApp <span className='md:text-2xl text-lg text-fuchsia-500 md:text-violet-600 '>Store</span> </Link>
      </div>
   </div>
   <div className="navbar-center hidden lg:flex">
@@ -58,7 +58,7 @@ const Header = () => {
     </ul>
   </div>
   <div className="navbar-end">
-   <Link  to='https://github.com/sh-shahedul' className="btn bg-gradient-to-r from-violet-600 to-fuchsia-500 text-base text-white"><FaGithub /> Contribute </Link>
+   <Link  to='https://github.com/sh-shahedul' className=" bg-gradient-to-r from-violet-600 to-fuchsia-500 md:text-base text-sm text-white flex items-center gap-1 p-2 rounded-lg"><FaGithub /> Contribute </Link>
   </div>
   </div>
 </div>
