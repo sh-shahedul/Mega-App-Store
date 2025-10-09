@@ -52,7 +52,7 @@ const AppDetails = () => {
     toast(<strong>{title} Installed Succesfully</strong>);
 
     const existingList = JSON.parse(localStorage.getItem("installApps"));
-    console.log(existingList);
+   
     let updatedList = [];
     if (existingList) {
       const isDuplicate = existingList.some((a) => a.id === app.id);

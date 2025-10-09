@@ -10,7 +10,7 @@ const Home = () => {
 
   const {apps,loading}=useApps()
   const sliceApp=apps.slice(0,8)
-  console.log(sliceApp)
+  
 
     return (
         <div className='bg-base-200 '>
