@@ -13,15 +13,19 @@ const Home = () => {
   
 
     return (
-        <div className='bg-base-200 '>
+      <div>
+        {
+
+            loading ? <Loading/> :
+          <div className='bg-base-200 '>
             
           <Banner></Banner>
           
           <h1 className='text-3xl font-bold  text-center'>Trending Apps</h1>
           <p className='text-base text-center font-medium text-gray-500 mt-3 mb-8'>Explore All Trending Apps on the Market developed by us</p>
           
-          {
-            loading ? <Loading/> :
+          
+          
            <div className='grid grid-cols-1  md:grid-cols-2 lg:grid-cols-4 gap-5 p-5'>
              {
               
@@ -29,14 +33,16 @@ const Home = () => {
             
             }
            </div>
-          }
+          
            
            
             <div className='flex justify-center items-center  p-10 '>
-              <Link className="btn bg-gradient-to-r px-10 from-violet-600 to-fuchsia-500 text-base text-white" to='/apps'>Show All</Link>
+              <Link to='/apps' className="btn bg-gradient-to-r px-10 from-violet-600 to-fuchsia-500 text-base text-white" >Show All</Link>
             </div>
            
           
+        </div>
+        }
         </div>
     );
 };

@@ -24,7 +24,10 @@ const Apps = () => {
 
   const noResults = term && serchApp.length === 0;
   return (
-    <div className="py-5">
+  <div>
+    {
+      loading? <Loading/>
+      : <div className="py-5">
       <div className="text-center md:py-10 ">
         <h1 className="md:text-5xl font-bold  text-3xl">
           Our All Applications
@@ -75,18 +78,18 @@ const Apps = () => {
         </div>
       </div>
 
-      {loading ? (
-        <Loading />
-      ) : searchLoading ? (
+      { searchLoading ? (
         <Loading />
       ) : (
         <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-4 gap-5 p-5 ">
           {noResults ? (
             <div className=" text-center grid col-span-4 p-20">
               <p className=" text-violet-500 text-5xl font-bold">
-                {" "}
+               
                 No Apps Found
               </p>
+              
+                <button onClick={()=>setSerch('')} className="btn bg-gradient-to-r px-10 from-violet-600 to-fuchsia-500 text-base text-white w-[200px] mx-auto mt-10" >Show All</button>
             </div>
           ) : (
             serchApp.map((app) => <AppsCard key={app.id} app={app}></AppsCard>)
@@ -94,6 +97,9 @@ const Apps = () => {
         </div>
       )}
     </div>
+    }
+  </div>
+    
   );
 };
 

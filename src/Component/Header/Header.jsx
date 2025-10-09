@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, NavLink } from 'react-router';
+import {  Link, NavLink } from 'react-router';
 import  logo from '../../assets/logo.png'
 import { FaGithub } from "react-icons/fa";
 
@@ -32,7 +32,7 @@ const Header = () => {
           </li>
       </ul>
     </div>
-      <Link  to="/" className='flex justify-between items-center gap-2 '>
+      <Link to='/' className='flex justify-between items-center gap-2 '>
       <img className=' w-[30px] h-[35px]  md:w-[60px]  md:h-[50px]'  src={logo} alt="" />
      <p className=" text-xl md:text-2xl font-bold text-violet-600  "> MegaApp <span className='md:text-2xl text-lg text-fuchsia-500 md:text-violet-600 '>Store</span> </p>
      </Link>
