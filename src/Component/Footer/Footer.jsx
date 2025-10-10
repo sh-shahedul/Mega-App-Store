@@ -38,9 +38,9 @@ const Footer = () => {
     </div>
   </nav>
   </div>
- <div className='text-center max-w-screen-2xl mx-auto p-2'>
+ <div className='text-center max-w-screen-xl mx-auto p-2'>
    <hr />
-   <p className='mt-2' > Copyright © {new Date().getFullYear()} - All right reserved by Mega App Store</p>
+   <p className='mt-2 md:text-base text-sm' > Copyright © {new Date().getFullYear()} - All right reserved by Mega App Store</p>
  </div>
 </footer>
     );
