@@ -68,7 +68,7 @@ const AppDetails = () => {
 
            <div className=" md:flex justify-start items-start md:p-8 p-4 gap-30  ">
            <figure className="  bg-gray-200  rounded-lg  ">
-           <img className="md:h-[270px] md:w-[370px]" src={image} alt={title}/>
+           <img className="md:h-[270px] md:w-[350px] rounded-lg" src={image} alt={title}/>
            </figure>
            <div className=" md:p-0 p-2 ">
            <h2 className=" text-3xl font-bold ">{title}</h2>

@@ -111,7 +111,7 @@ const Installition = () => {
               >
                 <figure className="  rounded-lg  p-3 ">
                   <img
-                    className="md:h-[100px] w-[70px] md:w-[130px]"
+                    className="md:h-[100px] w-[70px]  md:w-[100px] rounded-lg"
                     src={a.image}
                     alt={a.companyName}
                   />
