@@ -46,7 +46,7 @@ const AppDetails = () => {
   // add local sorage and disable button when click
       const handelClick = () => {
          setISDisabled(true);
-         toast(<strong>{title} Installed Succesfully</strong>);
+         toast(`✨🎉 ${app.title} installed successfully 💻`)
          const existingList = JSON.parse(localStorage.getItem("installApps"));
          let updatedList = [];
          if (existingList) {

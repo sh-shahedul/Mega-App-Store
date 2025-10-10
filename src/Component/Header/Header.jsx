@@ -33,25 +33,25 @@ const Header = () => {
       </ul>
     </div>
       <Link to='/' className='flex justify-between items-center gap-2 '>
-      <img className=' w-[30px] h-[35px]  md:w-[60px]  md:h-[50px]'  src={logo} alt="" />
+      <img className=' w-[40px] h-[40px]  md:w-[60px]  md:h-[60px]'  src={logo} alt="" />
      <p className=" text-xl md:text-2xl font-bold text-violet-600  "> MegaApp <span className='md:text-2xl text-lg text-fuchsia-500 md:text-violet-600 '>Store</span> </p>
      </Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-     <li className="hover:bg-violet-600   hover:text-white text-violet-600 bg-violet-200 font-bold rounded-lg border-2 border-violet-600 ">
+     <li className="hover:bg-violet-600   hover:text-white text-violet-600 text-lg font-bold rounded-lg   ">
             <NavLink className={({ isActive }) =>
-          isActive ? "bg-violet-600 text-base text-white" : ""
+          isActive ? "bg-gradient-to-r from-violet-600 to-fuchsia-500 text-base  text-white" : ""
         } to="/">Home</NavLink>
           </li>
-          <li className="hover:bg-violet-600 hover:text-white text-violet-600  bg-violet-200 font-bold rounded-lg border-2 border-violet-600 mx-2">
+          <li className="hover:bg-violet-600 hover:text-white text-violet-600 text-lg    font-bold rounded-lg   mx-2">
             <NavLink className={({ isActive }) =>
-          isActive ? "bg-violet-600 text-base text-white" : ""
+          isActive ? "bg-gradient-to-r from-violet-600 to-fuchsia-500 text-base text-white" : ""
         } to="/apps">Apps</NavLink>
           </li>
-          <li className="hover:bg-violet-600  hover:text-white text-violet-600 bg-violet-200 font-bold rounded-lg border-2 border-violet-600 ">
+          <li className="hover:bg-violet-600  hover:text-white text-violet-600  text-lg  font-bold rounded-lg   ">
             <NavLink className={({ isActive }) =>
-          isActive ? "bg-violet-600 text-base text-white " : ""
+          isActive ? "bg-gradient-to-r from-violet-600 to-fuchsia-500 text-base text-white " : ""
         } to="/install">Installation</NavLink>
           </li>
           

@@ -11,7 +11,7 @@ const Root = () => {
                 <Outlet></Outlet>
             </div>
             <Footer></Footer>
-            <ToastContainer position='top-center' className={'text-center'}/>
+            <ToastContainer  position="top-right" autoClose={1000} draggable className={'text-center !right-1/5'}/>
         </div>
     );
 };
