@@ -3,6 +3,13 @@
 # App Description:
 *Mega App Store* Mega App Store is a modern platform that lets users explore, discover, and download a wide variety of applications with ease. From productivity tools to entertainment apps, *Mega App Store* offers a smooth experience, fast downloads,and detailed app information — all in one convenient,user-friendly place.
 
+## Live Demo
+
+Check out the live version of **Course Land** here:  
+
+[🔗 Visit Live Site Netlify](https://sh-mega-app-store.netlify.app/)
+
+
 
 # Technologies Used:
 
