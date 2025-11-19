@@ -10,6 +10,30 @@ Check out the live version of **Course Land** here:
 [🔗 Visit Live Site Netlify](https://sh-mega-app-store.netlify.app/)
 
 
+## 🚀 Key Features
+
+### 📥 App Installation & Management
+- Install any app with a single click
+- View all installed apps in a dedicated section
+- Easily uninstall apps directly from the dashboard
+
+### 📱 Detailed App View
+- Click on any app to see full details
+- Displays app icon, version, size, and key features
+- Install/Uninstall buttons available directly from the details page
+
+### 📊 Installed Apps Overview
+- Shows the total number of installed apps
+- Includes a separate page to view all installed applications
+- Clean UI with both list and grid view options
+
+### ⚡ Smooth & Optimized User Experience
+- Fast performance with seamless navigation
+- Simple, intuitive, and modern user interface
+- Fully responsive design for mobile, tablet, and desktop
+
+
+
 
 # Technologies Used:
 
