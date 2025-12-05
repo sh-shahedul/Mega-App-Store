@@ -5,7 +5,7 @@
 
 ## Live Demo
 
-Check out the live version of **Course Land** here:  
+Check out the live version of **Mega App Store** here:  
 
 [🔗 Visit Live Site Netlify](https://sh-mega-app-store.netlify.app/)
 
